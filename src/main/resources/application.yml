@@ -1,0 +1,17 @@
+
+
+spring:
+  application:
+    name: Spring_Security_Login_Registration
+  datasource:
+    password: Shreyash@14
+    url: jdbc:mysql://localhost:3307/sbms
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  security:
+    user:
+      name: shrey
+      password: shrey
